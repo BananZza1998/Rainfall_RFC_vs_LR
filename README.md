@@ -46,7 +46,7 @@ Features include:
 6. Evaporation, the so-called Class A pan evaporation in the 24 hours to 9 am, etc.  
 7. The target variable is a binary variable RainTomorrow, which indicates whether rainfall appears tomorrow.   
 
-![something](https://drive.google.com/file/d/1A5349qI1NTiArh_yVMSoCahSBC-sh_C5/view?usp=sharing)  
+![something]([https://drive.google.com/file/d/1A5349qI1NTiArh_yVMSoCahSBC-sh_C5/view?usp=sharing](https://github.com/BananZza1998/Snaps_1/blob/main/Data_snap.png?raw=true))
 
 
 The complementary data used to visualize the model is the latitude and longitude of each unique area in the dataset, which is obtained from the open API geographical data source positionstack.com   
