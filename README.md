@@ -1,4 +1,4 @@
-# Rainfall Random forest vs Logistic Regression
+# Rainfall prediction: Random forest vs Logistic Regression
 Here I made point predictions of Rainfall in Australia and tested accuracy of Logistic Regression vs Random Forest Classifier
 
 
