@@ -30,19 +30,20 @@ Climate changes are a major factor affecting agriculture in Australia as variety
 
 Consequently, rainfall forecasts are an essential tool for agricultural entrepreneurs in those regions as their business processes are highly dependent on that factor.
 
-Although the data set is limited to Australia, the model can always be expanded to other regions in which rainfall predictions would benefit in any mean.
+Although the data set is limited to Australia, the model can always be expanded to other regions in which rainfall predictions would benefit in any mean.  
 
 ## Data
 
 The data adopted for the model is 10 years’ daily weather observations from major areas in Australia. 
-Features include Date, the date of observation; Location, 
-the common name of the location of the weather station; 
-MinTemp, the minimum temperature in degrees Celsius; MaxTemp, the maximum temperature in degrees celsius; Rainfall, the amount of rainfall recorded for the day in mm; 
-Evaporation, the so-called Class A pan evaporation in the 24 hours to 9 am, etc. 
-The target variable is a binary variable RainTomorrow, which indicates whether rainfall appears tomorrow. 
+Features include Date, the date of observation; Location,  
+the common name of the location of the weather station;  
+MinTemp, the minimum temperature in degrees Celsius; MaxTemp, the maximum temperature in degrees celsius;  
+Rainfall, the amount of rainfall recorded for the day in mm;  
+Evaporation, the so-called Class A pan evaporation in the 24 hours to 9 am, etc.  
+The target variable is a binary variable RainTomorrow, which indicates whether rainfall appears tomorrow.  
 
-The complementary data used to visualize the model is the latitude and longitude of each unique area in the dataset, which is obtained from the open API geographical data source positionstack.com
+The complementary data used to visualize the model is the latitude and longitude of each unique area in the dataset, which is obtained from the open API geographical data source positionstack.com  
 
-Data cleaning process includes conversion of dates into the appropriate format, replacing empty values with average values and dropping columns with more than 10% of missing data for each location. Additionally, I convert all categorical variables from their string values to integer indices.
+Data cleaning process includes conversion of dates into the appropriate format, replacing empty values with average values and dropping columns with more than 10% of missing data for each location. Additionally, I convert all categorical variables from their string values to integer indices.  
 
-After cleaning the data, what is left is 48 major cities/areas in Australia adding up to 140k entries for the main data set.
+After cleaning the data, what is left is 48 major cities/areas in Australia adding up to 140k entries for the main data set.  
