@@ -13,7 +13,8 @@ Along with that, interpretability is also one of the major goals in this project
 
 Repo content:
 1. Python notebook source code - Rainfall Prediction.ipynb
-2. Input data - weatherAUS.csv 
+2. Input data - weatherAUS.csv  
+
 You may also find this dataset by this link https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package
 4. Output data - Australia_forecast.csv
 5. Dashboard - Rain_forecast.twbx
