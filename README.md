@@ -57,9 +57,27 @@ After cleaning the data, what is left is 48 major cities/areas in Australia addi
 
 (Check the code for model setup and data processing)    
 
+## Setup
+
+Both models are well-known in the weather forecast sectors. The coefficients in logistic regression are easy to interpret after log and odds transformation. For the random forest model, the intuition is weighted votes of different trees, and decision trees are able to interpret too.
+Considering each location separately, it is predicted for each day whether it will rain or not tomorrow. Regarding in/out of sample split, I set data before 2016 as the in-sample set, and 2017 data as the out-of-sample set. Train-test split is 80 to 20 percent respectively. The prediction accuracy for both models is roughly similar, which is greater than 75% in the lowest-accurate city and generally greater than 85% on the whole test set.
+
+
 ## Outcome
 
+### Visual
+
+I visualized the model prediction in Tableau, which is easier to comprehend for the general audience.  
+Users would be able to choose the date to view the forecast and click on the triangle button to play the animation.  
+Also, visualization allows to check prediction accuracy at different levels: location and date. (.twbx file in the repo)
+
 ![Dashboard](https://github.com/BananZza1998/Snaps_1/blob/main/Dashboard.png?raw=true)   
+
+
+### Model comparison
+
+Regarding model comparison, I consider Random Forest Classifier to be slightly better due to stable output for the whole dataset. Despite both models provide similar accuracy, the Logistic Regression appears to have null prediction scores for several locations.
+
 
 ![Performance](https://github.com/BananZza1998/Snaps_1/blob/main/Performance.png?raw=true)   
 
