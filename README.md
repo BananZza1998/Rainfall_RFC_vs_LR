@@ -34,8 +34,8 @@ Although the data set is limited to Australia, the model can always be expanded 
 
 ## Data
 
-The data adopted for the model is 10 years’ daily weather observations from major areas in Australia. 
-Features include:
+The data adopted for the model is 10 years’ daily weather observations from major areas in Australia.   
+Features include:  
 1. Date, the date of observation; 
 2. Location, the common name of the location of the weather station;  
 3. MinTemp, the minimum temperature in degrees Celsius; 
