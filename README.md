@@ -35,15 +35,17 @@ Although the data set is limited to Australia, the model can always be expanded 
 ## Data
 
 The data adopted for the model is 10 years’ daily weather observations from major areas in Australia. 
-Features include Date, the date of observation; Location,  
-the common name of the location of the weather station;  
-MinTemp, the minimum temperature in degrees Celsius; MaxTemp, the maximum temperature in degrees celsius;  
-Rainfall, the amount of rainfall recorded for the day in mm;  
-Evaporation, the so-called Class A pan evaporation in the 24 hours to 9 am, etc.  
-The target variable is a binary variable RainTomorrow, which indicates whether rainfall appears tomorrow.  
+Features include:
+1. Date, the date of observation; 
+2. Location, the common name of the location of the weather station;  
+3. MinTemp, the minimum temperature in degrees Celsius; 
+4. MaxTemp, the maximum temperature in degrees celsius;  
+5. Rainfall, the amount of rainfall recorded for the day in mm;  
+6. Evaporation, the so-called Class A pan evaporation in the 24 hours to 9 am, etc.  
+7. The target variable is a binary variable RainTomorrow, which indicates whether rainfall appears tomorrow.  
 
-The complementary data used to visualize the model is the latitude and longitude of each unique area in the dataset, which is obtained from the open API geographical data source positionstack.com  
+The complementary data used to visualize the model is the latitude and longitude of each unique area in the dataset, which is obtained from the open API geographical data source positionstack.com   
 
-Data cleaning process includes conversion of dates into the appropriate format, replacing empty values with average values and dropping columns with more than 10% of missing data for each location. Additionally, I convert all categorical variables from their string values to integer indices.  
+Data cleaning process includes conversion of dates into the appropriate format, replacing empty values with average values and dropping columns with more than 10% of missing data for each location. Additionally, I convert all categorical variables from their string values to integer indices.   
 
-After cleaning the data, what is left is 48 major cities/areas in Australia adding up to 140k entries for the main data set.  
+After cleaning the data, what is left is 48 major cities/areas in Australia adding up to 140k entries for the main data set.   
