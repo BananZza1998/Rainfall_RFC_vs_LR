@@ -8,8 +8,7 @@ In this project, I studied how to build a useful and accurate model to predict r
 
 The two major algorithms used in this project are Random Forest Classifier and Logistic Regression. 
 
-Along with that, interpretability is also one of the major goals in this project as the target clients would be farmers who do not have much technical knowledge and require simpler explanations of the models as well the finding results. Therefore, I built a visualization dashboard using Tableau as one of the deliverables to better understand the model prediction. Finally, we analyzed the model results and made recommendations on model selection in predicting rainfall for agriculture.
-
+Along with that, interpretability is also one of the major goals in this project as the target clients would be farmers who do not have much technical knowledge and require simpler explanations of the models as well the finding results. Therefore, I built a visualization dashboard using Tableau to better understand the model prediction. 
 
 Repo content:
 1. Python notebook source code - Rainfall Prediction.ipynb
@@ -33,3 +32,17 @@ Consequently, rainfall forecasts are an essential tool for agricultural entrepre
 
 Although the data set is limited to Australia, the model can always be expanded to other regions in which rainfall predictions would benefit in any mean.
 
+## Data
+
+The data adopted for the model is 10 years’ daily weather observations from major areas in Australia. 
+Features include Date, the date of observation; Location, 
+the common name of the location of the weather station; 
+MinTemp, the minimum temperature in degrees Celsius; MaxTemp, the maximum temperature in degrees celsius; Rainfall, the amount of rainfall recorded for the day in mm; 
+Evaporation, the so-called Class A pan evaporation in the 24 hours to 9 am, etc. 
+The target variable is a binary variable RainTomorrow, which indicates whether rainfall appears tomorrow. 
+
+The complementary data used to visualize the model is the latitude and longitude of each unique area in the dataset, which is obtained from the open API geographical data source positionstack.com
+
+Data cleaning process includes conversion of dates into the appropriate format, replacing empty values with average values and dropping columns with more than 10% of missing data for each location. Additionally, I convert all categorical variables from their string values to integer indices.
+
+After cleaning the data, what is left is 48 major cities/areas in Australia adding up to 140k entries for the main data set.
