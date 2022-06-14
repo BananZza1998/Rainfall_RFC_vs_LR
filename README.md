@@ -53,4 +53,22 @@ The complementary data used to visualize the model is the latitude and longitude
 
 Data cleaning process includes conversion of dates into the appropriate format, replacing empty values with average values and dropping columns with more than 10% of missing data for each location. Additionally, I convert all categorical variables from their string values to integer indices.   
 
-After cleaning the data, what is left is 48 major cities/areas in Australia adding up to 140k entries for the main data set.   
+After cleaning the data, what is left is 48 major cities/areas in Australia adding up to 140k entries for the main data set.    
+
+(Check the code for model setup and data processing)    
+
+## Outcome
+
+![Dashboard](https://github.com/BananZza1998/Snaps_1/blob/main/Dashboard.png?raw=true)   
+
+![Performance](https://github.com/BananZza1998/Snaps_1/blob/main/Performance.png?raw=true)   
+
+
+
+
+
+
+
+
+
+
