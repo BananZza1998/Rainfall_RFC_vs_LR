@@ -20,6 +20,8 @@ You may also find this dataset by this link https://www.kaggle.com/datasets/jsph
 
 ## Problem Statement
 
+![something](https://imageresizer.static9.net.au/XyOKqmK3wHiqtHn8kZrUZ_N120Q=/1200x628/smart/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F5e95d05e-ce2c-4ac7-8066-ef40c53d82a7)
+
 In agriculture, one of the major factors that would affect the season outcome is weather conditions. Farmers make decisions based on daily weather changes, involving factors such as: fertilizing, crop growth and irrigation. 
 
 Crops are sensitive to moisture, light, and temperature. Firstly, with historical and prediction information, it is easier to track crop growth and decide when and how much to irrigate. Secondly, fertilizer timing and delivery, which can ensure the effectivity by fitting process to specific weather conditions. For example, it is a well know agricultural fact that nitrogen fertilizers are the most efficient to be applied before rainfall if it is not going to be too intense. However, treatment of plants to protect against weeds is not efficient to be applied before the rain as applied treatment tools are going to be washed away from a field. Finally, under some extreme weather conditions, the field will not be suitable for farmers to work on.
