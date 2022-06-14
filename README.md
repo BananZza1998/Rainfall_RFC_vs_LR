@@ -44,7 +44,10 @@ Features include:
 4. MaxTemp, the maximum temperature in degrees celsius;  
 5. Rainfall, the amount of rainfall recorded for the day in mm;  
 6. Evaporation, the so-called Class A pan evaporation in the 24 hours to 9 am, etc.  
-7. The target variable is a binary variable RainTomorrow, which indicates whether rainfall appears tomorrow.  
+7. The target variable is a binary variable RainTomorrow, which indicates whether rainfall appears tomorrow.   
+
+![something](https://drive.google.com/file/d/1A5349qI1NTiArh_yVMSoCahSBC-sh_C5/view?usp=sharing)  
+
 
 The complementary data used to visualize the model is the latitude and longitude of each unique area in the dataset, which is obtained from the open API geographical data source positionstack.com   
 
